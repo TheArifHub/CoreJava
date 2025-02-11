@@ -1,4 +1,4 @@
-package Abstraction;
+package AbstractClass;
 
 abstract class ATM {
 

@@ -1,4 +1,4 @@
-package Abstraction;
+package AbstractClass;
 abstract class Chrome{
     abstract void search(String songName);
     abstract void voiceSearch();

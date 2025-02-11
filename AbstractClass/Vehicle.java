@@ -1,4 +1,4 @@
-package Abstraction;
+package AbstractClass;
 
 abstract class Car {
     abstract void speed(int rpm);
