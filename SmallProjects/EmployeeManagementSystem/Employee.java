@@ -1,6 +1,9 @@
 package SmallProjects.EmployeeManagementSystem;
 
-public class Employee {
+import java.io.Serializable;
+
+public class Employee implements Serializable { // Implement Serializable
+    private static final long serialVersionUID = 1L; // Add serialVersionUID
 
     private int id;
     private String name;
@@ -46,6 +49,7 @@ public class Employee {
         this.salary = salary;
     }
 
+    @Override
     public String toString() {
         return "Employee{" + "Id=" + id + ", Name='" + name + '\'' + ", Department='" + department + '\'' + ", Salary="
                 + salary + '}';
